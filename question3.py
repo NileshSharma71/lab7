@@ -1,0 +1,6 @@
+n=input("Enter: ")
+k=n.replace(" ","-")
+print("Snake case: ",k)
+l=n.title()
+l=l.replace(" ","")
+print("Camel case: ",l)
