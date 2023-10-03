@@ -1,4 +1,4 @@
-n=input("Enter: ")
+n=input("Enter(in capitals): ")
 k=[]
 count=0
 for i in range(65,91):
