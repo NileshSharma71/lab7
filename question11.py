@@ -39,11 +39,11 @@ if not(n>=1 and n<=10):
     a4=(c4/len(k))*100
     a5=(c5/len(k))*100
     a="#"
-    print("1-2: ",a*int(a1%10),f"{a1:.2f}")
-    print("3-4: ",a*int(a2%10),f"{a2:.2f}")
-    print("5-6: ",a*int(a3%10),f"{a3:.2f}")
-    print("7-8: ",a*int(a4%10),f"{a4:.2f}")
-    print("9-10: ",a*int(a5%10),f"{a5:.2f}")
+    print("1-2: ",a*int(a1),f"{a1:.2f}")
+    print("3-4: ",a*int(a2),f"{a2:.2f}")
+    print("5-6: ",a*int(a3),f"{a3:.2f}")
+    print("7-8: ",a*int(a4),f"{a4:.2f}")
+    print("9-10:",a*int(a5),f"{a5:.2f}")
 
 else:
     print("please enter number from 1 to 10!")
